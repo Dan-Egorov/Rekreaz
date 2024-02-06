@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eeebe5;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0px auto;
+  padding: 0 10px 0 10px;
+}
+
+.main-section__nav-container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.main-section__nav-container {
+  height: 9vh;
+  background-color: #ECDEAF;
+}
+.main-section__header-text {
+  font-size: 28px;
+  font-weight: bold;
+}
+.main-section__content-container {
+  position: relative;
+  height: 85vh;
+  background-color: #FAF2D6;
+}
+.main-section__content-container-block1 {
+  position: absolute;
+  width: 40%;
+  margin: 5% 0 0 10%;
+}
+.main-section__content-container-block2 {
+  position: absolute;
+  width: 40%;
+  margin: 25% 0 0 10%;
+}
+.main-section__content-container-block1-text {
+  font-size: 22px;
+}
+.main-section__content-container2 {
+  position: relative;
+  height: 100vh;
+  background-color: #FBF7EA;
+}
+.main-section__content-container2__name {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 2% 0 0 0;
+  width: 30%;
+  text-align: center;
+}
+.main-section__content-container2__main-flex {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+.main-section__content-container2__main-block {
+  width: 50%;
+}
+.main-section__content-container2__main-text-block {
+  width: 90%;
+  margin: 0 0 0 10%;
+}
+.main-section__content-container2__main-text {
+  margin: 17% 0 0 0;
+  width: 90%;
+  font-size: 24px;
+}
+.main-section__content-container2__main-img1 {
+  width: 50%;
+  background-image: url("../img/Foto1.jpg");
+  background-size: cover;
+}/*# sourceMappingURL=sytle.css.map */
